@@ -17,7 +17,7 @@ import logging
 import subprocess
 
 from dotenv import load_dotenv
-from livekit.agents import JobContext, WorkerOptions, cli
+from livekit.agents import JobContext, WorkerOptions, clix
 from livekit.agents.voice import Agent, AgentSession
 from livekit.agents.llm import mcp
 
